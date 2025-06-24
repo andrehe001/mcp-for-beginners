@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "9a14017adf28f7440f20c2d5e7f1d0f8",
-  "translation_date": "2025-06-17T15:10:01+00:00",
+  "original_hash": "5dc09d7099d2f09f3e472bc8f073622d",
+  "translation_date": "2025-06-23T14:14:34+00:00",
   "source_file": "README.md",
   "language_code": "de"
 }
@@ -30,59 +30,82 @@ Folge diesen Schritten, um mit diesen Ressourcen zu starten:
 
 ### 🌐 Mehrsprachige Unterstützung
 
-#### Unterstützt durch GitHub Action (Automatisiert & immer aktuell)
+#### Unterstützt durch GitHub Action (Automatisch & immer aktuell)
 
-# 🚀 Model Context Protocol (MCP) Curriculum für Einsteiger
+# 🚀 Model Context Protocol (MCP) Lehrplan für Einsteiger
 
 ## **Lerne MCP mit praxisnahen Code-Beispielen in C#, Java, JavaScript, Python und TypeScript**
 
-## 🧠 Überblick über das Model Context Protocol Curriculum
+## 🧠 Überblick über den Model Context Protocol Lehrplan
 
-Das **Model Context Protocol (MCP)** ist ein modernes Framework, das darauf ausgelegt ist, die Interaktionen zwischen KI-Modellen und Client-Anwendungen zu standardisieren. Dieses Open-Source-Curriculum bietet einen strukturierten Lernpfad mit praktischen Programmierbeispielen und realen Anwendungsfällen in den gängigen Programmiersprachen C#, Java, JavaScript, TypeScript und Python.
+Das **Model Context Protocol (MCP)** ist ein innovatives Framework, das darauf abzielt, die Interaktionen zwischen KI-Modellen und Client-Anwendungen zu standardisieren. Dieser Open-Source-Lehrplan bietet einen strukturierten Lernpfad mit praktischen Programmierbeispielen und realen Anwendungsfällen in den gängigen Programmiersprachen C#, Java, JavaScript, TypeScript und Python.
 
-Egal, ob du KI-Entwickler, Systemarchitekt oder Softwareingenieur bist – dieser Leitfaden ist deine umfassende Ressource, um die Grundlagen und Implementierungsstrategien von MCP zu meistern.
+Egal, ob du KI-Entwickler, Systemarchitekt oder Softwareingenieur bist – dieser Leitfaden ist deine umfassende Ressource, um die Grundlagen und Umsetzungsstrategien von MCP zu meistern.
 
 ## 🔗 Offizielle MCP-Ressourcen
 
 - 📘 [MCP Dokumentation](https://modelcontextprotocol.io/) – Ausführliche Tutorials und Benutzerhandbücher  
 - 📜 [MCP Spezifikation](https://spec.modelcontextprotocol.io/) – Protokollarchitektur und technische Referenzen  
-- 🧑‍💻 [MCP GitHub Repository](https://github.com/modelcontextprotocol) – Open-Source-SDKs, Tools und Codebeispiele  
+- 🧑‍💻 [MCP GitHub Repository](https://github.com/modelcontextprotocol) – Open-Source-SDKs, Tools und Beispielcode  
 
-## 🧭 Vollständige MCP Curriculum-Struktur
+## 🧭 Überblick über den MCP Lehrplan
 
-| Ch | Titel | Beschreibung | Link |
-|--|--|--|--|
-| 00 | **Einführung in MCP** | Überblick über das Model Context Protocol und seine Bedeutung in KI-Pipelines, einschließlich was das Model Context Protocol ist, warum Standardisierung wichtig ist sowie praktische Anwendungsfälle und Vorteile | [Einführung](./00-Introduction/README.md) |
-| 01 | **Kernkonzepte erklärt** | Detaillierte Erläuterung der Kernkonzepte von MCP, darunter Client-Server-Architektur, wichtige Protokollkomponenten und Nachrichtenmuster | [Kernkonzepte](./01-CoreConcepts/README.md) |
-| 02 | **Sicherheit in MCP** | Erkennen von Sicherheitsbedrohungen in MCP-basierten Systemen, Techniken und Best Practices zur Absicherung von Implementierungen | [Sicherheit](./02-Security/README.md) |
-| 03 | **Erste Schritte mit MCP** | Einrichtung und Konfiguration der Umgebung, Erstellen einfacher MCP-Server und -Clients, Integration von MCP in bestehende Anwendungen | [Erste Schritte](./03-GettingStarted/README.md) |
-| 3.1 | **Erster Server** | Aufbau eines einfachen Servers mit dem MCP-Protokoll, Verständnis der Server-Client-Interaktion und Testen des Servers | [Erster Server](./03-GettingStarted/01-first-server/README.md) |
-| 3.2 | **Erster Client** | Aufbau eines einfachen Clients mit dem MCP-Protokoll, Verständnis der Client-Server-Interaktion und Testen des Clients | [Erster Client](./03-GettingStarted/02-client/README.md) |
-| 3.3 | **Client mit LLM** | Aufbau eines Clients mit dem MCP-Protokoll unter Verwendung eines Large Language Models (LLM) | [Client mit LLM](./03-GettingStarted/03-llm-client/README.md) |
-| 3.4 | **Einen Server mit Visual Studio Code konsumieren** | Einrichtung von Visual Studio Code zur Nutzung von Servern über das MCP-Protokoll | [Einen Server mit Visual Studio Code konsumieren](./03-GettingStarted/04-vscode/README.md) |
-| 3.5 | **Erstellen eines Servers mit SSE** | SSE ermöglicht es uns, einen Server öffentlich zugänglich zu machen. Dieser Abschnitt hilft dir, einen Server mit SSE zu erstellen | [Erstellen eines Servers mit SSE](./03-GettingStarted/05-sse-server/README.md) |
-| 3.6 | **HTTP Streaming** | Lerne, wie man HTTP Streaming für die Echtzeit-Datenübertragung zwischen Clients und MCP-Servern implementiert | [HTTP Streaming](./03-GettingStarted/06-http-streaming/README.md) |
-| 3.7 | **Verwendung des AI Toolkits** | Das AI Toolkit ist ein großartiges Werkzeug, das dir hilft, deinen KI- und MCP-Workflow zu verwalten | [Verwendung des AI Toolkits](./03-GettingStarted/07-aitk/README.md) |
-| 3.8 | **Testen deines Servers** | Testen ist ein wichtiger Teil des Entwicklungsprozesses. Dieser Abschnitt zeigt dir, wie du verschiedene Tools zum Testen einsetzen kannst | [Testen deines Servers](./03-GettingStarted/08-testing/README.md) |
-| 3.9 | **Bereitstellung deines Servers** | Wie gelangst du von der lokalen Entwicklung zur Produktion? Dieser Abschnitt hilft dir beim Entwickeln und Bereitstellen deines Servers | [Bereitstellung deines Servers](./03-GettingStarted/09-deployment/README.md) |
-| 04 | **Praktische Umsetzung** | Nutzung von SDKs in verschiedenen Sprachen, Debugging, Testen und Validierung, Erstellung wiederverwendbarer Prompt-Vorlagen und Workflows | [Praktische Umsetzung](./04-PracticalImplementation/README.md) |
-| 05 | **Fortgeschrittene Themen in MCP** | Multimodale KI-Workflows und Erweiterbarkeit, sichere Skalierungsstrategien, MCP in Unternehmensökosystemen | [Fortgeschrittene Themen](./05-AdvancedTopics/README.md) |
-| 5.1 | **MCP Integration mit Azure** | Zeigt die Integration mit Azure | [MCP Azure Integration](./05-AdvancedTopics/mcp-integration/README.md) |
-| 5.2 | **Multimodalität** | Zeigt, wie man mit verschiedenen Modalitäten wie Bildern und mehr arbeitet | [Multimodalität](./05-AdvancedTopics/mcp-multi-modality/README.md) |
-| 5.3 | **MCP OAuth2 Demo** | Minimalistische Spring Boot App, die OAuth2 mit MCP zeigt – sowohl als Autorisierungs- als auch als Ressourcenserver. Demonstriert sichere Token-Ausgabe, geschützte Endpunkte, Deployment auf Azure Container Apps und Integration mit API Management | [MCP OAuth2 Demo](./05-AdvancedTopics/mcp-oauth2-demo/README.md) |
-| 5.4 | **Root Contexts** | Erfahre mehr über Root Contexts und wie man sie implementiert | [Root Contexts](./05-AdvancedTopics/mcp-root-contexts/README.md) |
-| 5.5 | **Routing** | Lerne verschiedene Arten von Routing kennen | [Routing](./05-AdvancedTopics/mcp-routing/README.md) |
-| 5.6 | **Sampling** | Lerne, wie man mit Sampling arbeitet | [Sampling](./05-AdvancedTopics/mcp-sampling/README.md) |
-| 5.7 | **Skalierung** | Erfahre, wie man MCP-Server skaliert, einschließlich horizontaler und vertikaler Skalierungsstrategien, Ressourcenoptimierung und Performance-Tuning | [Skalierung](./05-AdvancedTopics/mcp-scaling/README.md) |
-| 5.8 | **Sicherheit** | Schütze deinen MCP-Server, einschließlich Authentifizierungs-, Autorisierungs- und Datenschutzstrategien | [Sicherheit](./05-AdvancedTopics/mcp-security/README.md) |
-| 5.9 | **Web Search MCP** | Python MCP-Server und Client mit Integration von SerpAPI für Echtzeit-Web-, Nachrichten-, Produktsuche und Q&A. Demonstriert Multi-Tool-Orchestrierung, externe API-Integration und robustes Fehlerhandling | [Web Search MCP](./05-AdvancedTopics/web-search-mcp/README.md) |
-| 5.10 | **Echtzeit-Streaming** | Echtzeit-Datenstreaming ist heute unverzichtbar, da Unternehmen und Anwendungen sofortigen Zugriff auf Informationen benötigen, um rechtzeitig Entscheidungen zu treffen | [Echtzeit-Streaming](./05-AdvancedTopics/mcp-realtimestreaming/README.md) |
-| 5.11 | **Echtzeit-Websuche** | Wie MCP die Echtzeit-Websuche revolutioniert, indem es einen standardisierten Ansatz für das Kontextmanagement zwischen KI-Modellen, Suchmaschinen und Anwendungen bietet | [Echtzeit-Websuche](./05-AdvancedTopics/mcp-realtimesearch/README.md) |
-| 06 | **Community-Beiträge** | Wie man Code und Dokumentation beisteuert, Zusammenarbeit über GitHub, gemeinschaftlich getriebene Verbesserungen und Feedback | [Community-Beiträge](./06-CommunityContributions/README.md) |
-| 07 | **Erkenntnisse aus der frühen Einführung** | Praxisnahe Implementierungen und was funktioniert hat, Aufbau und Bereitstellung von MCP-basierten Lösungen, Trends und zukünftiger Fahrplan | [Insights](./07-LessonsFromEarlyAdoption/README.md) |
-| 08 | **Best Practices für MCP** | Performance-Optimierung und Feinabstimmung, Gestaltung fehlertoleranter MCP-Systeme, Test- und Resilienzstrategien | [Best Practices](./08-BestPractices/README.md) |
-| 09 | **MCP Fallstudien** | Tiefgehende Einblicke in MCP-Lösungsarchitekturen, Bereitstellungspläne und Integrationstipps, annotierte Diagramme und Projekt-Durchläufe | [Case Studies](./09-CaseStudy/README.md) |
-| 10 | **KI-Workflows optimieren: Aufbau eines MCP-Servers mit AI Toolkit** | Umfassender praxisorientierter Workshop, der MCP mit Microsofts AI Toolkit für VS Code kombiniert. Lernen Sie, intelligente Anwendungen zu erstellen, die KI-Modelle mit realen Werkzeugen verbinden – durch praktische Module zu Grundlagen, kundenspezifischer Serverentwicklung und Strategien für die Produktion. | [Hands On Lab](./10-StreamliningAIWorkflowsBuildingAnMCPServerWithAIToolkit/README.md) |
+<details>
+  <summary><strong>00-03: Grundlagen</strong></summary>
+
+- **00. Einführung in MCP**  
+  Überblick über das Model Context Protocol und seine Bedeutung in KI-Pipelines. [Weiterlesen](./00-Introduction/README.md)
+- **01. Erklärung der Kernkonzepte**  
+  Tiefgehende Erläuterung der zentralen MCP-Konzepte. [Weiterlesen](./01-CoreConcepts/README.md)
+- **02. Sicherheit im MCP**  
+  Bedrohungen und bewährte Sicherheitspraktiken. [Weiterlesen](./02-Security/README.md)
+- **03. Erste Schritte mit MCP**  
+  Einrichtung der Umgebung, einfache Server/Clients, Integration. [Weiterlesen](./03-GettingStarted/README.md)
+</details>
+
+<details>
+  <summary><strong>03.x: Praktische Übungen</strong></summary>
+
+- **3.1. Erster Server** – [Anleitung](./03-GettingStarted/01-first-server/README.md)
+- **3.2. Erster Client** – [Anleitung](./03-GettingStarted/02-client/README.md)
+- **3.3. Client mit LLM** – [Anleitung](./03-GettingStarted/03-llm-client/README.md)
+- **3.4. Nutzung eines Servers mit Visual Studio Code** – [Anleitung](./03-GettingStarted/04-vscode/README.md)
+- **3.5. Server mit SSE erstellen** – [Anleitung](./03-GettingStarted/05-sse-server/README.md)
+- **3.6. HTTP Streaming** – [Anleitung](./03-GettingStarted/06-http-streaming/README.md)
+- **3.7. AI Toolkit verwenden** – [Anleitung](./03-GettingStarted/07-aitk/README.md)
+- **3.8. Deinen Server testen** – [Anleitung](./03-GettingStarted/08-testing/README.md)
+- **3.9. Deinen Server bereitstellen** – [Anleitung](./03-GettingStarted/09-deployment/README.md)
+</details>
+
+<details>
+  <summary><strong>04-05: Praktisch & Fortgeschritten</strong></summary>
+
+- **04. Praktische Umsetzung**  
+  SDKs, Debugging, Tests, wiederverwendbare Prompt-Vorlagen. [Weiterlesen](./04-PracticalImplementation/README.md)
+- **05. Fortgeschrittene Themen im MCP**  
+  Multi-modale KI, Skalierung, Enterprise-Anwendungen. [Weiterlesen](./05-AdvancedTopics/README.md)
+- **5.1. MCP Integration mit Azure** – [Anleitung](./05-AdvancedTopics/mcp-integration/README.md)
+- **5.2. Multi-Modality** – [Anleitung](./05-AdvancedTopics/mcp-multi-modality/README.md)
+- **5.3. MCP OAuth2 Demo** – [Anleitung](./05-AdvancedTopics/mcp-oauth2-demo/README.md)
+- **5.4. Root Contexts** – [Anleitung](./05-AdvancedTopics/mcp-root-contexts/README.md)
+- **5.5. Routing** – [Anleitung](./05-AdvancedTopics/mcp-routing/README.md)
+- **5.6. Sampling** – [Anleitung](./05-AdvancedTopics/mcp-sampling/README.md)
+- **5.7. Skalierung** – [Anleitung](./05-AdvancedTopics/mcp-scaling/README.md)
+- **5.8. Sicherheit** – [Anleitung](./05-AdvancedTopics/mcp-security/README.md)
+- **5.9. Web Search MCP** – [Anleitung](./05-AdvancedTopics/web-search-mcp/README.md)
+- **5.10. Echtzeit-Streaming** – [Anleitung](./05-AdvancedTopics/mcp-realtimestreaming/README.md)
+- **5.11. Echtzeit-Websuche** – [Anleitung](./05-AdvancedTopics/mcp-realtimesearch/README.md)
+</details>
+
+<details>
+  <summary><strong>06-10: Community, Best Practices & Labs</strong></summary>
+
+- **06. Beiträge aus der Community** – [Anleitung](./06-CommunityContributions/README.md)
+- **07. Erkenntnisse aus der frühen Einführung** – [Guide](./07-LessonsFromEarlyAdoption/README.md)
+- **08. Best Practices für MCP** – [Guide](./08-BestPractices/README.md)
+- **09. MCP Fallstudien** – [Guide](./09-CaseStudy/README.md)
+- **10. KI-Workflows optimieren: Aufbau eines MCP-Servers mit AI Toolkit** – [Hands On Lab](./10-StreamliningAIWorkflowsBuildingAnMCPServerWithAIToolkit/README.md)
+</details>
 
 ## Beispielprojekte
 
@@ -113,44 +136,45 @@ Egal, ob du KI-Entwickler, Systemarchitekt oder Softwareingenieur bist – diese
 
 ## 🎯 Voraussetzungen für das Lernen von MCP
 
-Um das Beste aus diesem Curriculum herauszuholen, solltest du Folgendes mitbringen:
+Um das Beste aus diesem Curriculum herauszuholen, solltest du folgendes mitbringen:
 
 - Grundkenntnisse in C#, Java oder Python  
 - Verständnis des Client-Server-Modells und von APIs  
 - (Optional) Vertrautheit mit Konzepten des maschinellen Lernens  
 
-## 📚 Lernleitfaden
+## 📚 Studienleitfaden
 
-Ein umfassender [Lernleitfaden](./study_guide.md) steht zur Verfügung, um dir eine effektive Navigation durch dieses Repository zu ermöglichen. Der Leitfaden enthält:
+Ein umfassender [Studienleitfaden](./study_guide.md) steht zur Verfügung, um dich beim Navigieren in diesem Repository effektiv zu unterstützen. Der Leitfaden enthält:
 
-- Eine visuelle Übersicht des Curriculums mit allen behandelten Themen  
-- Detaillierte Aufschlüsselung der einzelnen Repository-Bereiche  
-- Anleitungen zur Nutzung der Beispielprojekte  
-- Empfohlene Lernpfade für unterschiedliche Kenntnisstufen  
+- Eine visuelle Curriculum-Übersicht mit allen behandelten Themen  
+- Detaillierte Aufschlüsselung der einzelnen Repository-Abschnitte  
+- Hinweise zur Nutzung der Beispielprojekte  
+- Empfohlene Lernpfade für verschiedene Erfahrungsstufen  
 - Zusätzliche Ressourcen zur Ergänzung deiner Lernreise  
 
 ## 🛠️ So nutzt du dieses Curriculum effektiv
 
-Jede Lektion in diesem Leitfaden beinhaltet:
+Jede Lektion in diesem Guide umfasst:
 
-1. Klare Erklärungen zu MCP-Konzepten  
-2. Live-Code-Beispiele in verschiedenen Programmiersprachen  
-3. Übungen zum Aufbau realer MCP-Anwendungen  
-4. Zusätzliche Ressourcen für Fortgeschrittene  
+1. Klare Erklärungen der MCP-Konzepte  
+2. Live-Code-Beispiele in mehreren Programmiersprachen  
+3. Übungen zum Erstellen echter MCP-Anwendungen  
+4. Zusatzressourcen für fortgeschrittene Lernende  
 
 ## 📜 Lizenzinformationen
 
-Dieser Inhalt steht unter der **MIT-Lizenz**. Die Bedingungen findest du in der [LICENSE](../../LICENSE).
+Dieser Inhalt steht unter der **MIT License**. Für die Bedingungen siehe die [LICENSE](../../LICENSE).
 
 ## 🤝 Beitragsrichtlinien
 
-Dieses Projekt freut sich über Beiträge und Vorschläge. Die meisten Beiträge erfordern, dass du einer Contributor License Agreement (CLA) zustimmst, die bestätigt, dass du das Recht hast und tatsächlich die Rechte gewährst, deine Beiträge zu nutzen. Details findest du unter <https://cla.opensource.microsoft.com>.
+Dieses Projekt freut sich über Beiträge und Vorschläge. Die meisten Beiträge erfordern, dass du einer Contributor License Agreement (CLA) zustimmst, die bestätigt, dass du die Rechte hast und tatsächlich gewährst, dass wir deinen Beitrag verwenden dürfen. Details findest du unter <https://cla.opensource.microsoft.com>.
 
-Wenn du eine Pull-Anfrage einreichst, prüft ein CLA-Bot automatisch, ob du eine CLA bereitstellen musst und versieht die PR entsprechend (z. B. Status-Check, Kommentar). Folge einfach den Anweisungen des Bots. Dies musst du nur einmal für alle Repositories mit unserer CLA tun.
+Wenn du einen Pull Request einreichst, überprüft ein CLA-Bot automatisch, ob du eine CLA bereitstellen musst, und versieht den PR entsprechend (z. B. Statusprüfung, Kommentar). Folge einfach den Anweisungen des Bots. Dies musst du nur einmal für alle Repositories erledigen, die unsere CLA verwenden.
 
-Dieses Projekt hat den [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) übernommen. Weitere Informationen findest du in den [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) oder kontaktiere [opencode@microsoft.com](mailto:opencode@microsoft.com) bei weiteren Fragen oder Anmerkungen.
+Dieses Projekt hat den [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) übernommen.  
+Weitere Informationen findest du in den [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) oder kontaktiere [opencode@microsoft.com](mailto:opencode@microsoft.com) bei weiteren Fragen oder Anmerkungen.
 
-## 🎒 Weitere Kurse
+## 🎒 Weitere Kurse  
 Unser Team bietet weitere Kurse an! Schau dir an:
 
 - [AI Agents For Beginners](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
@@ -171,10 +195,10 @@ Unser Team bietet weitere Kurse an! Schau dir an:
 
 ## ™️ Markenzeichen-Hinweis
 
-Dieses Projekt kann Marken oder Logos von Projekten, Produkten oder Dienstleistungen enthalten. Die autorisierte Verwendung von Microsoft-Marken oder -Logos unterliegt und muss den
-[Microsoft Marken- und Markenrichtlinien](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general) entsprechen.
-Die Verwendung von Microsoft-Marken oder -Logos in modifizierten Versionen dieses Projekts darf nicht zu Verwechslungen führen oder eine Microsoft-Unterstützung suggerieren.
-Jegliche Nutzung von Marken oder Logos Dritter unterliegt den Richtlinien dieser Dritten.
+Dieses Projekt kann Marken oder Logos von Projekten, Produkten oder Dienstleistungen enthalten. Die autorisierte Nutzung von Microsoft-Marken oder -Logos unterliegt und muss den
+[Microsoft Marken- & Markenrichtlinien](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general) folgen.
+Die Verwendung von Microsoft-Marken oder -Logos in modifizierten Versionen dieses Projekts darf keine Verwirrung stiften oder eine Microsoft-Unterstützung suggerieren.
+Jegliche Verwendung von Marken oder Logos Dritter unterliegt den Richtlinien dieser Dritten.
 
 **Haftungsausschluss**:  
-Dieses Dokument wurde mit dem KI-Übersetzungsdienst [Co-op Translator](https://github.com/Azure/co-op-translator) übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner Ursprungssprache ist als maßgebliche Quelle zu betrachten. Für wichtige Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Nutzung dieser Übersetzung entstehen.
+Dieses Dokument wurde mit dem KI-Übersetzungsdienst [Co-op Translator](https://github.com/Azure/co-op-translator) übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner Ausgangssprache gilt als maßgebliche Quelle. Für wichtige Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung entstehen.

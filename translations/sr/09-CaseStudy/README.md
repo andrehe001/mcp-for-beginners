@@ -1,67 +1,118 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "23899e82d806f25e5e46e89aab564dca",
-  "translation_date": "2025-06-13T21:29:39+00:00",
+  "original_hash": "6940b1e931e51821b219aa9dcfe8c4ee",
+  "translation_date": "2025-06-23T11:18:23+00:00",
   "source_file": "09-CaseStudy/README.md",
   "language_code": "sr"
 }
 -->
-# MCP u praksi: Studije slučaja iz stvarnog sveta
+# MCP у пракси: Студије случаја из стварног света
 
-Model Context Protocol (MCP) menja način na koji AI aplikacije komuniciraju sa podacima, alatima i uslugama. Ovaj deo prikazuje studije slučaja iz stvarnog sveta koje demonstriraju praktične primene MCP-a u različitim poslovnim okruženjima.
+Model Context Protocol (MCP) мења начин на који AI апликације комуницирају са подацима, алатима и сервисима. У овом одељку представљамо студије случаја које показују практичне примене MCP у различитим корпоративним сценаријима.
 
-## Pregled
+## Преглед
 
-Ovaj deo prikazuje konkretne primere implementacija MCP-a, ističući kako organizacije koriste ovaj protokol za rešavanje složenih poslovnih problema. Analizom ovih studija slučaja dobićete uvid u svestranost, skalabilnost i praktične prednosti MCP-a u stvarnim uslovima.
+Овај одељак приказује конкретне примере имплементација MCP, истичући како организације користе овај протокол за решавање сложених пословних изазова. Пrouчавањем ових студија случаја добићете увид у свестраност, скалабилност и практичне предности MCP у стварним условима.
 
-## Ključni ciljevi učenja
+## Кључни циљеви учења
 
-Istraživanjem ovih studija slučaja, naučićete:
+Истражујући ове студије случаја, научићете да:
 
-- Kako se MCP može primeniti za rešavanje specifičnih poslovnih problema
-- Različite obrasce integracije i arhitektonske pristupe
-- Najbolje prakse za implementaciju MCP-a u poslovnim okruženjima
-- Izazove i rešenja sa kojima se susreću stvarne implementacije
-- Prilike za primenu sličnih obrazaca u sopstvenim projektima
+- Разумете како MCP може да се примени за решавање одређених пословних проблема
+- Упознате се са различитим интеграционим моделима и архитектонским приступима
+- Препознате најбоље праксе за имплементацију MCP у корпоративним окружењима
+- Стекнете увид у изазове и решења која се јављају у стварним имплементацијама
+- Идентификујете прилике за примену сличних модела у својим пројектима
 
-## Istaknute studije slučaja
+## Истакнуте студије случаја
 
-### 1. [Azure AI Travel Agents – Referentna implementacija](./travelagentsample.md)
+### 1. [Azure AI Travel Agents – Reference Implementation](./travelagentsample.md)
 
-Ova studija slučaja analizira Microsoftovo sveobuhvatno referentno rešenje koje pokazuje kako napraviti aplikaciju za planiranje putovanja sa više agenata pokretanu AI-jem, koristeći MCP, Azure OpenAI i Azure AI Search. Projekat prikazuje:
+Ова студија случаја анализира свеобухватно Microsoft-ово референтно решење које показује како изградити мулти-агентску апликацију за планирање путовања са вештачком интелигенцијом користећи MCP, Azure OpenAI и Azure AI Search. Пројекат приказује:
 
-- Orkestraciju sa više agenata kroz MCP
-- Integraciju poslovnih podataka sa Azure AI Search
-- Sigurnu i skalabilnu arhitekturu koristeći Azure usluge
-- Proširive alate sa ponovo upotrebljivim MCP komponentama
-- Konverzacijsko korisničko iskustvo pokretano Azure OpenAI
+- Оркестрацију више агената преко MCP
+- Интеграцију корпоративних података помоћу Azure AI Search
+- Безбедну и скалабилну архитектуру користећи Azure сервисе
+- Прошириве алате са поновно употребљивим MCP компонентама
+- Конверзацијално корисничко искуство покретано Azure OpenAI
 
-Arhitektonske i implementacione detalje pružaju dragocene uvide u izgradnju složenih sistema sa više agenata gde MCP služi kao sloj koordinacije.
+Архитектура и детаљи имплементације пружају вредне увиде у изградњу сложених мулти-агентских система са MCP као слојем за координацију.
 
-### 2. [Ažuriranje Azure DevOps stavki podacima sa YouTube-a](./UpdateADOItemsFromYT.md)
+### 2. [Ажурирање Azure DevOps ставки са YouTube подацима](./UpdateADOItemsFromYT.md)
 
-Ova studija slučaja prikazuje praktičnu primenu MCP-a za automatizaciju radnih tokova. Pokazuje kako se MCP alati mogu koristiti za:
+Ова студија случаја показује практичну примену MCP за аутоматизацију радних процеса. Приказује како MCP алати могу да:
 
-- Ekstrakciju podataka sa online platformi (YouTube)
-- Ažuriranje radnih stavki u Azure DevOps sistemima
-- Kreiranje ponovljivih automatizovanih radnih tokova
-- Integraciju podataka između različitih sistema
+- Извлаче податке са онлајн платформи (YouTube)
+- Ажурирају радне ставке у Azure DevOps системима
+- Креирају понављајуће аутоматизоване радне токове
+- Интегришу податке из различитих система
 
-Ovaj primer pokazuje kako čak i relativno jednostavne implementacije MCP-a mogu doneti značajne efikasnosti automatizacijom rutinskih zadataka i poboljšanjem konzistentnosti podataka između sistema.
+Овај пример илуструје како чак и релативно једноставне MCP имплементације могу донети значајна повећања ефикасности аутоматизацијом рутинских задатака и побољшањем конзистентности података између система.
 
-## Zaključak
+### 3. [Превлачење документације у реалном времену уз MCP](./docs-mcp/README.md)
 
-Ove studije slučaja ističu svestranost i praktične primene Model Context Protocol-a u stvarnim uslovima. Od složenih sistema sa više agenata do ciljanih automatizovanih radnih tokova, MCP pruža standardizovani način povezivanja AI sistema sa alatima i podacima koji su im potrebni za stvaranje vrednosti.
+Ова студија случаја вас води кроз повезивање Python конзолног клијента са MCP сервером ради преузимања и бележења Microsoft документације у реалном времену, прилагођене контексту. Научићете како да:
 
-Proučavanjem ovih implementacija možete steći uvide u arhitektonske obrasce, strategije implementacije i najbolje prakse koje možete primeniti u sopstvenim MCP projektima. Primeri pokazuju da MCP nije samo teorijski okvir, već praktično rešenje za stvarne poslovne izazove.
+- Повежете се са MCP сервером користећи Python клијент и званични MCP SDK
+- Користите стриминг HTTP клијенте за ефикасно преузимање података у реалном времену
+- Позивате алате за документацију на серверу и бележите одговоре директно у конзолу
+- Интегришете ажурну Microsoft документацију у свој радни ток без напуштања терминала
 
-## Dodatni resursi
+Поглавље садржи практични задатак, минималан радни пример кода и линкове ка додатним ресурсима за дубље учење. Погледајте целокупан водич и код у повезаном поглављу да бисте разумели како MCP може да трансформише приступ документацији и продуктивност програмера у конзолном окружењу.
 
-- [Azure AI Travel Agents GitHub repozitorijum](https://github.com/Azure-Samples/azure-ai-travel-agents)
-- [Azure DevOps MCP alat](https://github.com/microsoft/azure-devops-mcp)
-- [Playwright MCP alat](https://github.com/microsoft/playwright-mcp)
-- [MCP zajednički primeri](https://github.com/microsoft/mcp)
+### 4. [Интерактивна веб апликација за генерисање студијског плана уз MCP](./docs-mcp/README.md)
+
+Ова студија случаја показује како направити интерактивну веб апликацију користећи Chainlit и Model Context Protocol (MCP) за генерисање персонализованих студијских планова за било коју тему. Корисници могу да одреде предмет (нпр. „AI-900 сертификат“) и трајање учења (нпр. 8 недеља), а апликација ће пружити распоред садржаја по недељама. Chainlit омогућава конверзацијални чат интерфејс, чинећи искуство занимљивим и прилагодљивим.
+
+- Конверзацијална веб апликација покретана Chainlit-ом
+- Кориснички уноси за тему и трајање
+- Препоруке садржаја по недељама уз MCP
+- Адаптивни одговори у реалном времену у чат интерфејсу
+
+Пројекат илуструје како се конверзацијална AI и MCP могу комбиновати за креирање динамичких, кориснички вођених образовних алата у савременом веб окружењу.
+
+### 5. [Документација у уређивачу уз MCP сервер у VS Code-у](./docs-mcp/README.md)
+
+Ова студија случаја показује како да доведете Microsoft Learn Docs директно у VS Code окружење користећи MCP сервер — без потребе за пребацивањем између табова у прегледачу! Погледаћете како да:
+
+- Одмах претражујете и читате документацију унутар VS Code-а користећи MCP панел или командну палету
+- Референцирате документацију и убацујете линкове директно у README или markdown фајлове курсева
+- Користите GitHub Copilot и MCP за беспрекорне AI-покретане радне токове документације и кода
+- Верификујете и побољшавате документацију уз повратне информације у реалном времену и тачност из Microsoft извора
+- Интегришете MCP са GitHub радним токовима за континуирану валидацију документације
+
+Имплементација укључује:
+- Пример `.vscode/mcp.json` конфигурације за лако подешавање
+- Водиче са снимцима екрана о искуству у уређивачу
+- Савете за комбиновање Copilot-а и MCP-а за максималну продуктивност
+
+Овај сценарио је идеалан за ауторе курсева, писце документације и програмере који желе да остану фокусирани у свом уређивачу док раде са документацијом, Copilot-ом и алатима за валидацију — све покретано MCP-ом.
+
+### 6. [Креирање APIM MCP сервера](./apimsample.md)
+
+Ова студија случаја пружа корак-по-корак водич како да направите MCP сервер користећи Azure API Management (APIM). Обухвата:
+
+- Постављање MCP сервера у Azure API Management
+- Излагање API операција као MCP алата
+- Конфигурисање политика за ограничење броја захтева и безбедност
+- Тестирање MCP сервера уз Visual Studio Code и GitHub Copilot
+
+Овај пример показује како искористити могућности Azure-а за креирање робусног MCP сервера који се може користити у разним апликацијама, побољшавајући интеграцију AI система са корпоративним API-јима.
+
+## Закључак
+
+Ове студије случаја илуструју свестраност и практичне примене Model Context Protocol-а у стварним сценаријима. Од сложених мулти-агентских система до усмерених аутоматизованих радних токова, MCP пружа стандардизован начин повезивања AI система са алатима и подацима који су им потребни да би створили вредност.
+
+Пrouчавањем ових имплементација можете добити увид у архитектонске моделе, стратегије имплементације и најбоље праксе које можете применити у својим MCP пројектима. Примери показују да MCP није само теоријски оквир већ практично решење за стварне пословне изазове.
+
+## Додатни ресурси
+
+- [Azure AI Travel Agents GitHub Repository](https://github.com/Azure-Samples/azure-ai-travel-agents)
+- [Azure DevOps MCP Tool](https://github.com/microsoft/azure-devops-mcp)
+- [Playwright MCP Tool](https://github.com/microsoft/playwright-mcp)
+- [Microsoft Docs MCP Server](https://github.com/MicrosoftDocs/mcp)
+- [MCP Community Examples](https://github.com/microsoft/mcp)
 
 **Одрицање од одговорности**:  
-Овај документ је преведен коришћењем AI сервиса за превођење [Co-op Translator](https://github.com/Azure/co-op-translator). Иако се трудимо да превод буде тачан, молимо имајте у виду да аутоматизовани преводи могу садржати грешке или нетачности. Оригинални документ на његовом изворном језику треба сматрати ауторитетним извором. За критичне информације препоручује се професионални људски превод. Нисмо одговорни за било каква неспоразума или погрешна тумачења настала коришћењем овог превода.
+Овај документ је преведен коришћењем АИ услуге за превођење [Co-op Translator](https://github.com/Azure/co-op-translator). Иако тежимо тачности, молимо имајте у виду да аутоматски преводи могу садржати грешке или нетачности. Изворни документ на његовом оригиналном језику треба сматрати ауторитетним извором. За критичне информације препоручује се професионални људски превод. Нисмо одговорни за било каква неспоразума или погрешна тумачења која произилазе из коришћења овог превода.

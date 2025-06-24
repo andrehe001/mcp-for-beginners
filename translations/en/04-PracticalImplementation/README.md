@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d88dbf928fa0f159b82312e9a6757ba0",
-  "translation_date": "2025-06-18T08:28:28+00:00",
+  "original_hash": "5384bbb2a92d00d5d7e66274dbe0331d",
+  "translation_date": "2025-06-20T18:17:51+00:00",
   "source_file": "04-PracticalImplementation/README.md",
   "language_code": "en"
 }
@@ -11,13 +11,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 Practical implementation is where the power of the Model Context Protocol (MCP) becomes tangible. While understanding the theory and architecture behind MCP is important, the real value comes when you apply these concepts to build, test, and deploy solutions that solve real-world problems. This chapter bridges the gap between conceptual knowledge and hands-on development, guiding you through the process of bringing MCP-based applications to life.
 
-Whether you’re developing intelligent assistants, integrating AI into business workflows, or building custom tools for data processing, MCP provides a flexible foundation. Its language-agnostic design and official SDKs for popular programming languages make it accessible to a wide range of developers. By leveraging these SDKs, you can quickly prototype, iterate, and scale your solutions across different platforms and environments.
+Whether you are developing intelligent assistants, integrating AI into business workflows, or building custom tools for data processing, MCP provides a flexible foundation. Its language-agnostic design and official SDKs for popular programming languages make it accessible to a wide range of developers. By leveraging these SDKs, you can quickly prototype, iterate, and scale your solutions across different platforms and environments.
 
-In the following sections, you’ll find practical examples, sample code, and deployment strategies that demonstrate how to implement MCP in C#, Java, TypeScript, JavaScript, and Python. You’ll also learn how to debug and test your MCP servers, manage APIs, and deploy solutions to the cloud using Azure. These hands-on resources are designed to accelerate your learning and help you confidently build robust, production-ready MCP applications.
+In the following sections, you'll find practical examples, sample code, and deployment strategies that demonstrate how to implement MCP in C#, Java, TypeScript, JavaScript, and Python. You'll also learn how to debug and test your MCP servers, manage APIs, and deploy solutions to the cloud using Azure. These hands-on resources are designed to accelerate your learning and help you confidently build robust, production-ready MCP applications.
 
 ## Overview
 
-This lesson focuses on the practical aspects of MCP implementation across multiple programming languages. We’ll explore how to use MCP SDKs in C#, Java, TypeScript, JavaScript, and Python to build robust applications, debug and test MCP servers, and create reusable resources, prompts, and tools.
+This lesson focuses on practical aspects of MCP implementation across multiple programming languages. We'll explore how to use MCP SDKs in C#, Java, TypeScript, JavaScript, and Python to build robust applications, debug and test MCP servers, and create reusable resources, prompts, and tools.
 
 ## Learning Objectives
 
@@ -108,7 +108,7 @@ The Java SDK offers robust MCP implementation options with enterprise-grade feat
 - Reactive programming support
 - Comprehensive error handling
 
-For a complete Java implementation sample, see [MCPSample.java](../../../04-PracticalImplementation/samples/java/MCPSample.java) in the samples directory.
+For a complete Java implementation sample, see [Java sample](samples/java/containerapp/README.md) in the samples directory.
 
 ## Sample implementation: JavaScript Implementation
 
@@ -121,7 +121,7 @@ The JavaScript SDK provides a lightweight and flexible approach to MCP implement
 - Easy integration with Express and other frameworks
 - WebSocket support for streaming
 
-For a complete JavaScript implementation sample, see [mcp_sample.js](../../../04-PracticalImplementation/samples/javascript/mcp_sample.js) in the samples directory.
+For a complete JavaScript implementation sample, see [JavaScript sample](samples/javascript/README.md) in the samples directory.
 
 ## Sample implementation: Python Implementation
 
@@ -134,11 +134,11 @@ The Python SDK offers a Pythonic approach to MCP implementation with excellent M
 - Simple tool registration
 - Native integration with popular ML libraries
 
-For a complete Python implementation sample, see [mcp_sample.py](../../../04-PracticalImplementation/samples/python/mcp_sample.py) in the samples directory.
+For a complete Python implementation sample, see [Python sample](samples/python/README.md) in the samples directory.
 
 ## API management 
 
-Azure API Management is a great solution for securing MCP Servers. The idea is to place an Azure API Management instance in front of your MCP Server and let it handle features you’ll likely want such as:
+Azure API Management is a great solution for securing MCP Servers. The idea is to place an Azure API Management instance in front of your MCP Server and let it handle features you’ll likely need such as:
 
 - rate limiting
 - token management
@@ -148,7 +148,7 @@ Azure API Management is a great solution for securing MCP Servers. The idea is t
 
 ### Azure Sample
 
-Here’s an Azure Sample doing exactly that, i.e. [creating an MCP Server and securing it with Azure API Management](https://github.com/Azure-Samples/remote-mcp-apim-functions-python).
+Here's an Azure Sample doing exactly that, i.e. [creating an MCP Server and securing it with Azure API Management](https://github.com/Azure-Samples/remote-mcp-apim-functions-python).
 
 See how the authorization flow works in the image below:
 
@@ -156,13 +156,13 @@ See how the authorization flow works in the image below:
 
 In the image above, the following happens:
 
-- Authentication/Authorization is done using Microsoft Entra.
+- Authentication/Authorization is handled using Microsoft Entra.
 - Azure API Management acts as a gateway and uses policies to route and manage traffic.
 - Azure Monitor logs all requests for further analysis.
 
 #### Authorization flow
 
-Let’s take a closer look at the authorization flow:
+Let's take a closer look at the authorization flow:
 
 ![Sequence Diagram](https://github.com/Azure-Samples/remote-mcp-apim-functions-python/blob/main/infra/app/apim-oauth/diagrams/images/mcp-client-auth.png?raw=true)
 
@@ -172,7 +172,7 @@ Learn more about the [MCP Authorization specification](https://modelcontextproto
 
 ## Deploy Remote MCP Server to Azure
 
-Let’s see how to deploy the sample we mentioned earlier:
+Let's see how to deploy the sample we mentioned earlier:
 
 1. Clone the repo
 
@@ -183,9 +183,9 @@ Let’s see how to deploy the sample we mentioned earlier:
 
 2. Register `Microsoft.App`` resource provider.
     * If you are using Azure CLI, run `az provider register --namespace Microsoft.App --wait`.
-    * If you are using Azure PowerShell, run `Register-AzResourceProvider -ProviderNamespace Microsoft.App`. Then run `(Get-AzResourceProvider -ProviderNamespace Microsoft.App).RegistrationState` after some time to check if the registration is complete.
+    * If you are using Azure PowerShell, run `Register-AzResourceProvider -ProviderNamespace Microsoft.App`. Then run `(Get-AzResourceProvider -ProviderNamespace Microsoft.App).RegistrationState` and after some time check if the registration is complete.
 
-3. Run this [azd](https://aka.ms/azd) command to provision the API management service, function app (with code), and all other required Azure resources
+3. Run this [azd](https://aka.ms/azd) command to provision the API management service, function app (with code), and all other required Azure resources:
 
     ```shell
     azd up
@@ -201,11 +201,11 @@ Let’s see how to deploy the sample we mentioned earlier:
     npx @modelcontextprotocol/inspector
     ```
 
-    You should see an interface similar to:
+    You should see an interface like this:
 
     ![Connect to Node inspector](../../../translated_images/connect.141db0b2bd05f096fb1dd91273771fd8b2469d6507656c3b0c9df4b3c5473929.en.png) 
 
-2. CTRL-click to load the MCP Inspector web app from the URL displayed by the app (e.g. http://127.0.0.1:6274/#resources)
+2. CTRL-click to open the MCP Inspector web app from the URL displayed by the app (e.g. http://127.0.0.1:6274/#resources)
 3. Set the transport type to `SSE`
 1. Set the URL to your running API Management SSE endpoint displayed after `azd up` and **Connect**:
 
@@ -215,7 +215,7 @@ Let’s see how to deploy the sample we mentioned earlier:
 
 5. **List Tools**. Click on a tool and **Run Tool**.
 
-If all steps worked, you should now be connected to the MCP server and able to call a tool.
+If everything worked, you should now be connected to the MCP server and able to call a tool.
 
 ## MCP servers for Azure 
 
@@ -269,4 +269,4 @@ Design a practical MCP workflow that addresses a real-world problem in your doma
 Next: [Advanced Topics](../05-AdvancedTopics/README.md)
 
 **Disclaimer**:  
-This document has been translated using AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.

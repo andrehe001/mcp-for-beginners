@@ -1,0 +1,7 @@
+{
+    "servers": {
+        "LearnDocsMCP": {
+            "url": "https://learn.microsoft.com/api/mcp"
+        }
+    }
+}

@@ -484,3 +484,8 @@ Thumbs.db
 # Environments
 .env
 .venv
+
+# Chainlit and related files
+.chainlit/
+.files/
+chainlit.md

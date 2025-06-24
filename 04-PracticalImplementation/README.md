@@ -99,7 +99,7 @@ The Java SDK offers robust MCP implementation options with enterprise-grade feat
 - Reactive programming support
 - Comprehensive error handling
 
-For a complete Java implementation sample, see [MCPSample.java](samples/java/MCPSample.java) in the samples directory.
+For a complete Java implementation sample, see [Java sample](samples/java/containerapp/README.md) in the samples directory.
 
 ## Sample implementation: JavaScript Implementation
 
@@ -112,7 +112,7 @@ The JavaScript SDK provides a lightweight and flexible approach to MCP implement
 - Easy integration with Express and other frameworks
 - WebSocket support for streaming
 
-For a complete JavaScript implementation sample, see [mcp_sample.js](samples/javascript/mcp_sample.js) in the samples directory.
+For a complete JavaScript implementation sample, see [JavaScript sample](samples/javascript/README.md) in the samples directory.
 
 ## Sample implementation: Python Implementation
 
@@ -125,7 +125,7 @@ The Python SDK offers a Pythonic approach to MCP implementation with excellent M
 - Simple tool registration
 - Native integration with popular ML libraries
 
-For a complete Python implementation sample, see [mcp_sample.py](samples/python/mcp_sample.py) in the samples directory.
+For a complete Python implementation sample, see [Python sample](samples/python/README.md) in the samples directory.
 
 ## API management 
 

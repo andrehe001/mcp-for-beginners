@@ -23,7 +23,7 @@ Follow these steps to get started using these resources:
 
 #### Supported via GitHub Action (Automated & Always Up-to-Date)
 
-[French](./translations/fr/README.md) | [Spanish](./translations/es/README.md) | [German](./translations/de/README.md) | [Russian](./translations/ru/README.md) | [Arabic](./translations/ar/README.md) | [Persian (Farsi)](./translations/fa/README.md) | [Urdu](./translations/ur/README.md) | [Chinese (Simplified)](./translations/zh/README.md) | [Chinese (Traditional, Macau)](./translations/mo/README.md) | [Chinese (Traditional, Hong Kong)](./translations/hk/README.md) | [Chinese (Traditional, Taiwan)](./translations/tw/README.md) | [Japanese](./translations/ja/README.md) | [Korean](./translations/ko/README.md) | [Hindi](./translations/hi/README.md) | [Bengali](./translations/bn/README.md) | [Marathi](./translations/mr/README.md) | [Nepali](./translations/ne/README.md) | [Punjabi (Gurmukhi)](./translations/pa/README.md) | [Portuguese (Portugal)](./translations/pt/README.md) | [Portuguese (Brazil)](./translations/br/README.md) | [Italian](./translations/it/README.md) | [Polish](./translations/pl/README.md) | [Turkish](./translations/tr/README.md) | [Greek](./translations/el/README.md) | [Thai](./translations/th/README.md) | [Swedish](./translations/sv/README.md) | [Danish](./translations/da/README.md) | [Norwegian](./translations/no/README.md) | [Finnish](./translations/fi/README.md) | [Dutch](./translations/nl/README.md) | [Hebrew](./translations/he/README.md) | [Vietnamese](./translations/vi/README.md) | [Indonesian](./translations/id/README.md) | [Malay](./translations/ms/README.md) | [Tagalog (Filipino)](./translations/tl/README.md) | [Swahili](./translations/sw/README.md) | [Hungarian](./translations/hu/README.md) | [Czech](./translations/cs/README.md) | [Slovak](./translations/sk/README.md) | [Romanian](./translations/ro/README.md) | [Bulgarian](./translations/bg/README.md) | [Serbian (Cyrillic)](./translations/sr/README.md) | [Croatian](./translations/hr/README.md) | [Slovenian](./translations/sl/README.md)
+[French](./translations/fr/README.md) | [Spanish](./translations/es/README.md) | [German](./translations/de/README.md) | [Russian](./translations/ru/README.md) | [Arabic](./translations/ar/README.md) | [Persian (Farsi)](./translations/fa/README.md) | [Urdu](./translations/ur/README.md) | [Chinese (Simplified)](./translations/zh/README.md) | [Chinese (Traditional, Macau)](./translations/mo/README.md) | [Chinese (Traditional, Hong Kong)](./translations/hk/README.md) | [Chinese (Traditional, Taiwan)](./translations/tw/README.md) | [Japanese](./translations/ja/README.md) | [Korean](./translations/ko/README.md) | [Hindi](./translations/hi/README.md) | [Bengali](./translations/bn/README.md) | [Marathi](./translations/mr/README.md) | [Nepali](./translations/ne/README.md) | [Punjabi (Gurmukhi)](./translations/pa/README.md) | [Portuguese (Portugal)](./translations/pt/README.md) | [Portuguese (Brazil)](./translations/br/README.md) | [Italian](./translations/it/README.md) | [Polish](./translations/pl/README.md) | [Turkish](./translations/tr/README.md) | [Greek](./translations/el/README.md) | [Thai](./translations/th/README.md) | [Swedish](./translations/sv/README.md) | [Danish](./translations/da/README.md) | [Norwegian](./translations/no/README.md) | [Finnish](./translations/fi/README.md) | [Dutch](./translations/nl/README.md) | [Hebrew](./translations/he/README.md) | [Vietnamese](./translations/vi/README.md) | [Indonesian](./translations/id/README.md) | [Malay](./translations/ms/README.md) | [Tagalog (Filipino)](./translations/tl/README.md) | [Swahili](./translations/sw/README.md) | [Hungarian](./translations/hu/README.md) | [Czech](./translations/cs/README.md) | [Slovak](./translations/sk/README.md) | [Romanian](./translations/ro/README.md) | [Bulgarian](./translations/bg/README.md) | [Serbian (Cyrillic)](./translations/sr/README.md) | [Croatian](./translations/hr/README.md) | [Slovenian](./translations/sl/README.md) | [Ukrainian](./translations/uk/README.md) | [Burmese (Myanmar](./translations/my/README.md)
 
 # 🚀 Model Context Protocol (MCP) Curriculum for Beginners
 
@@ -41,41 +41,64 @@ Whether you're an AI developer, system architect, or software engineer, this gui
 - 📜 [MCP Specification](https://spec.modelcontextprotocol.io/) – Protocol architecture and technical references  
 - 🧑‍💻 [MCP GitHub Repository](https://github.com/modelcontextprotocol) – Open-source SDKs, tools, and code samples  
 
-## 🧭 Complete MCP Curriculum Structure
+## 🧭 MCP Curriculum Overview
 
-| Ch | Title | Description | Link |
-|--|--|--|--|
-| 00 | **Introduction to MCP** | Overview of the Model Context Protocol and its significance in AI pipelines, including what is the Model Context Protocol, why standardization matters and practical use cases and benefits | [Introduction](./00-Introduction/README.md) |
-| 01 | **Core Concepts Explained** | In-depth exploration of the core concepts of MCP, including client-server architecture, key protocol components, and messaging patterns | [Core Concepts](./01-CoreConcepts/README.md) |
-| 02 | **Security in MCP** | Identifying security threats within MCP-based systems, techniques and best practices for securing implementations | [Security](/02-Security/README.md) |
-| 03 | **Getting Started with MCP** | Environment setup and configuration, creating basic MCP servers and clients, integrating MCP with existing applications | [Getting Started](./03-GettingStarted/README.md) |
-| 3.1 | **First server** | Setting up a basic server using the MCP protocol, understanding the server-client interaction, and testing the server | [First Server](./03-GettingStarted/01-first-server/README.md) |
-| 3.2 | **First client**  | Setting up a basic client using the MCP protocol, understanding the client-server interaction, and testing the client | [First Client](./03-GettingStarted/02-client/README.md) |
-| 3.3 | **Client with LLM**  | Setting up a client using the MCP protocol with a Large Language Model (LLM) | [Client with LLM](./03-GettingStarted/03-llm-client/README.md) |
-| 3.4 | **Consuming a server with Visual Studio Code** | Setting up Visual Studio Code to consume servers using the MCP protocol | [Consuming a server with Visual Studio Code](./03-GettingStarted/04-vscode/README.md) |
-| 3.5 | **Creating a server using SSE** | SSE helps us expose a server to the internet. This section will help you create a server using SSE | [Creating a server using SSE](./03-GettingStarted/05-sse-server/README.md) |
-| 3.6 | **HTTP Streaming** | Learn how to implement HTTP streaming for real-time data transfer between clients and MCP servers | [HTTP Streaming](./03-GettingStarted/06-http-streaming/README.md) |
-| 3.7 | **Use AI Toolkit** | AI toolkit is a great tool that will help you manage your AI and MCP workflow. | [Use AI Toolkit](./03-GettingStarted/07-aitk/README.md) |
-| 3.8 | **Testing your server** | Testing is an important part of the development process. This section will help you test use several different tools. | [Testing your server](./03-GettingStarted/08-testing/README.md) |
-| 3.9 | **Deploy your server** | How do you go from local development to production? This section will help you develop and deploy your server. | [Deploy your server](./03-GettingStarted/09-deployment/README.md) |
-| 04 | **Practical Implementation** | Using SDKs across different languages, debugging, testing, and validation, crafting reusable prompt templates and workflows | [Practical Implementation](./04-PracticalImplementation/README.md) |
-| 05 | **Advanced Topics in MCP** | Multi-modal AI workflows and extensibility, secure scaling strategies, MCP in enterprise ecosystems | [Advanced Topics](./05-AdvancedTopics/README.md) |
-| 5.1 | **MCP Integration with Azure** | Shows integration with Azure | [MCP Azure integration](./05-AdvancedTopics/mcp-integration/README.md) |
-| 5.2 | **Multi modality** | Showing how to work with different modalities like images and more | [Multi modality](./05-AdvancedTopics/mcp-multi-modality/README.md) |
-| 5.3 | **MCP OAuth2 Demo** | Minimal Spring Boot app showing OAuth2 with MCP, both as Authorization and Resource Server. Demonstrates secure token issuance, protected endpoints, Azure Container Apps deployment, and API Management integration. | [MCP OAuth2 Demo](./05-AdvancedTopics/mcp-oauth2-demo/README.md) |
-| 5.4 | **Root Contexts** | Learn more about root context and how to implement them | [Root Contexts](./05-AdvancedTopics/mcp-root-contexts/README.md) |
-| 5.5 | **Routing** | Learn different types of routing | [Routing](./05-AdvancedTopics/mcp-routing/README.md) |
-| 5.6 | **Sampling** | Learn how to work with sampling | [Sampling](./05-AdvancedTopics/mcp-sampling/README.md) |
-| 5.7 | **Scaling** | Learn about scaling MCP servers, including horizontal and vertical scaling strategies, resource optimization, and performance tuning | [Scaling](./05-AdvancedTopics/mcp-scaling/README.md) |
-| 5.8 | **Security** | Secure your MCP Server, including authentication, authorization, and data protection strategies | [Security](./05-AdvancedTopics/mcp-security/README.md) |
-| 5.9 | **Web Search MCP** | Python MCP server and client integrating with SerpAPI for real-time web, news, product search, and Q&A. Demonstrates multi-tool orchestration, external API integration, and robust error handling | [Web Search MCP](./05-AdvancedTopics/web-search-mcp/README.md) |
-| 5.10 | **Realtime Streaming** | Real-time data streaming has become essential in today's data-driven world, where businesses and applications require immediate access to information to make timely decisions.| [Realtime Streaming](./05-AdvancedTopics/mcp-realtimestreaming/README.md) |
-| 5.11 | **Realtime Web Search** | Real-time web search how MCP transforms real-time web search by providing a standardized approach to context management across AI models, search engines, and applications.| [Realtime Web Search](./05-AdvancedTopics/mcp-realtimesearch/README.md) |
-| 06 | **Community Contributions** | How to contribute code and docs, collaborating via GitHub, community-driven enhancements and feedback | [Community Contributions](./06-CommunityContributions/README.md) |
-| 07 | **Insights from Early Adoption** | Real-world implementations and what worked, building and deploying MCP-based solutions, trends and future roadmap | [Insights](./07-LessonsFromEarlyAdoption/README.md) |
-| 08 | **Best Practices for MCP** | Performance tuning and optimization, designing fault-tolerant MCP systems, testing and resilience strategies | [Best Practices](./08-BestPractices/README.md) |
-| 09 | **MCP Case Studies** | Deep-dives into MCP solution architectures, deployment blueprints and integration tips, annotated diagrams and project walkthroughs | [Case Studies](./09-CaseStudy/README.md) |
-| 10 | **Streamlining AI Workflows: Building an MCP Server with AI Toolkit** | Comprehensive hands-on workshop combining MCP with Microsoft's AI Toolkit for VS Code. Learn to build intelligent applications bridging AI models with real-world tools through practical modules covering fundamentals, custom server development, and production deployment strategies. | [Hands On Lab](./10-StreamliningAIWorkflowsBuildingAnMCPServerWithAIToolkit/README.md) |
+<details>
+  <summary><strong>00-03: Foundations</strong></summary>
+
+- **00. Introduction to MCP**  
+  Overview of the Model Context Protocol and its significance in AI pipelines. [Read more](./00-Introduction/README.md)
+- **01. Core Concepts Explained**  
+  In-depth exploration of core MCP concepts. [Read more](./01-CoreConcepts/README.md)
+- **02. Security in MCP**  
+  Security threats and best practices. [Read more](./02-Security/README.md)
+- **03. Getting Started with MCP**  
+  Environment setup, basic servers/clients, integration. [Read more](./03-GettingStarted/README.md)
+</details>
+
+<details>
+  <summary><strong>03.x: Hands-On Labs</strong></summary>
+
+- **3.1. First server** – [Guide](./03-GettingStarted/01-first-server/README.md)
+- **3.2. First client** – [Guide](./03-GettingStarted/02-client/README.md)
+- **3.3. Client with LLM** – [Guide](./03-GettingStarted/03-llm-client/README.md)
+- **3.4. Consuming a server with Visual Studio Code** – [Guide](./03-GettingStarted/04-vscode/README.md)
+- **3.5. Creating a server using SSE** – [Guide](./03-GettingStarted/05-sse-server/README.md)
+- **3.6. HTTP Streaming** – [Guide](./03-GettingStarted/06-http-streaming/README.md)
+- **3.7. Use AI Toolkit** – [Guide](./03-GettingStarted/07-aitk/README.md)
+- **3.8. Testing your server** – [Guide](./03-GettingStarted/08-testing/README.md)
+- **3.9. Deploy your server** – [Guide](./03-GettingStarted/09-deployment/README.md)
+</details>
+
+<details>
+  <summary><strong>04-05: Practical & Advanced</strong></summary>
+
+- **04. Practical Implementation**  
+  SDKs, debugging, testing, reusable prompt templates. [Read more](./04-PracticalImplementation/README.md)
+- **05. Advanced Topics in MCP**  
+  Multi-modal AI, scaling, enterprise use. [Read more](./05-AdvancedTopics/README.md)
+- **5.1. MCP Integration with Azure** – [Guide](./05-AdvancedTopics/mcp-integration/README.md)
+- **5.2. Multi modality** – [Guide](./05-AdvancedTopics/mcp-multi-modality/README.md)
+- **5.3. MCP OAuth2 Demo** – [Guide](./05-AdvancedTopics/mcp-oauth2-demo/README.md)
+- **5.4. Root Contexts** – [Guide](./05-AdvancedTopics/mcp-root-contexts/README.md)
+- **5.5. Routing** – [Guide](./05-AdvancedTopics/mcp-routing/README.md)
+- **5.6. Sampling** – [Guide](./05-AdvancedTopics/mcp-sampling/README.md)
+- **5.7. Scaling** – [Guide](./05-AdvancedTopics/mcp-scaling/README.md)
+- **5.8. Security** – [Guide](./05-AdvancedTopics/mcp-security/README.md)
+- **5.9. Web Search MCP** – [Guide](./05-AdvancedTopics/web-search-mcp/README.md)
+- **5.10. Realtime Streaming** – [Guide](./05-AdvancedTopics/mcp-realtimestreaming/README.md)
+- **5.11. Realtime Web Search** – [Guide](./05-AdvancedTopics/mcp-realtimesearch/README.md)
+</details>
+
+<details>
+  <summary><strong>06-10: Community, Best Practices & Labs</strong></summary>
+
+- **06. Community Contributions** – [Guide](./06-CommunityContributions/README.md)
+- **07. Insights from Early Adoption** – [Guide](./07-LessonsFromEarlyAdoption/README.md)
+- **08. Best Practices for MCP** – [Guide](./08-BestPractices/README.md)
+- **09. MCP Case Studies** – [Guide](./09-CaseStudy/README.md)
+- **10. Streamlining AI Workflows: Building an MCP Server with AI Toolkit** – [Hands On Lab](./10-StreamliningAIWorkflowsBuildingAnMCPServerWithAIToolkit/README.md)
+</details>
 
 ## Sample Projects
 
